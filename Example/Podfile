@@ -1,0 +1,15 @@
+platform :ios, '10.0'
+
+target 'Example' do
+  use_frameworks!
+
+  pod 'webrtcat4', :path => '../'
+  pod 'Alamofire', '~> 4.0'
+  pod 'SwiftyJSON'
+  pod 'Firebase/Messaging'
+  pod 'SwiftyTimer', '~> 2.0'
+  pod 'IQKeyboardManagerSwift'
+
+  pod 'SlideMenuControllerSwift', :git => 'https://github.com/AtomicSLLC/SlideMenuControllerSwift.git', :branch => 'swift5'
+
+end
